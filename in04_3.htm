@@ -1,0 +1,173 @@
+
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<style type="text/css">
+<!--
+a:link {  color: #384F9D; text-decoration: none; font-family: "돋움", "돋움체"; font-size: 9pt}
+a:hover {  color: #70B6E4; text-decoration: none; font-family: "돋움", "돋움체"; font-size: 9pt; font-style: normal; font-weight: normal}
+a:visited {  font-family: "돋움", "돋움체"; font-size: 9pt; color: #384F9D; text-decoration: none}
+.text { font-family: "돋움", "돋움체"; font-size: 9pt;line-height:130%; color: #3A002E; font-weight: bold}
+.text1 { font-family: "돋움", "돋움체"; font-size: 9pt;line-height:130%; font-weight: bold}
+.text2 {  font-family: "돋움", "돋움체"; font-size: 9pt; text-decoration: none;line-height:130%}
+td        { font: 9pt/170% "돋움", "돋움체";text-align: justify; letter-spacing: -1pt }
+.word {  letter-spacing: 1px}
+-->
+</style>
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<table width="600">
+
+  <tr>
+    <td width="20"></td>
+    <td>
+      <h3>4. 연습 문제</h3>
+    </td>
+  </tr>
+
+  <tr> 
+    <td width="20">&nbsp;</td>
+    <td><br>
+      <b><font color="#BF0052">연습 문제 - 최고의 코스 요리</font></b> &nbsp;<br>
+      <table width="550" border="1" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td width="80" bgcolor="#FBF5E1"> 
+            <div align="center">문제</div>
+          </td>
+          <td bgcolor="#F3F3F3">
+            <table width="455" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td>
+&nbsp;&nbsp;&nbsp;&nbsp;철수는 한국 최고의 중국 음식점에서 일하는 요리사다. 이 음식점에서는 3가지의 코스 요리를 제공하는데, 코스 요리에서는 몇 가지 요리를 순서에 맞게 제공한다. 어느 날 이 음식점의 가장 중요한 고객이 3가지 코스 요리를 한 번에 모두 먹어보고 싶다고 주문해왔다. 거절할 수 없는 고객의 부탁인지라 철수는 이 코스 요리들을 합친 새 메뉴를 구상하기 시작했다. 각 코스 요리에 공통된 요리가 있으면 새 메뉴에서는 한 번만 제공하기로 했다. 또 원래 코스 요리에서 나오는 순서를 새 메뉴에서도 유지해야 맛있게 먹을 수 있다. 메뉴를 구상하던 철수는 이게 그다지 만만한 일이 아님을 알게 되었다. 철수를 위해 3가지 코스 요리의 메뉴가 들어오면 새 메뉴를 구성해 주는 프로그램을 만들자. 
+
+				</td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+        <tr> 
+          <td height="24" width="80" bgcolor="#FBF5E1"> 
+            <div align="center">입력 형식</div> 
+          </td>
+          <td height="24" bgcolor="#F3F3F3">
+            <table width="455" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td>
+&nbsp;&nbsp;&nbsp;&nbsp;3가지 코스 요리에 대한 정보가 INPUT.TXT 파일에 들어있다. 파일은 세 줄의 문자열로 이루어져 있다. 요리 이름은 간단하게 알파벳 대문자 한 글자로 표기되어 있고, 세 줄의 문자열들은 각 코스 요리를 이루는 요리 이름들의 순서를 나타낸다. 예를 들어 첫 번째 문자열이 "ABC"라면, 1번 코스 요리는 요리 A, 요리 B, 요리 C로 되어 있고, A, B, C 요리 순서대로 나온다는 뜻이다. 새 메뉴를 구성하게 되는 요리의 수는 26개를 넘지 않는다고 가정한다. 
+
+				</td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+        <tr> 
+          <td width="80" bgcolor="#FBF5E1"> 
+            <div align="center">츨력 형식</div> 
+          </td>
+          <td bgcolor="#F3F3F3">
+            <table width="460" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td>
+&nbsp;&nbsp;&nbsp;&nbsp;OUTPUT.TXT 파일에 새로 만들어진 메뉴를 요리 이름으로 이루어진 문자열로 출력한다. 문자열을 이루는 요리 이름들은 먼저 나와야 하는 순서대로 있어야 한다. 새 메뉴를 만드는 것이 불가능한 경우는 입력되지 않는다고 가정한다. 둘 중에 어떤 요리를 먼저 두어도 상관이 없는 경우가 생기면, 그 요리가 원래 있던 코스 요리의 번호가 빠른 것을 새 메뉴에 먼저 둔다. 
+
+				</td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+        <tr> 
+          <td width="80" bgcolor="#FBF5E1"> 
+            <div align="center">입출력 예제</div> 
+          </td>
+          <td bgcolor="#F3F3F3" height="140"> <table width="460" border="0" cellspacing="0" cellpadding="0" align="center">
+            <span class="word">
+              <tr> 
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;입력(INPUT.TXT)</td>
+              </tr>
+              <tr> 
+                <td> 
+                  <table width="265" border="1" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="word">
+&nbsp;&nbsp;&nbsp;NKTJR<br>
+&nbsp;&nbsp;&nbsp;HKLZR<br>
+&nbsp;&nbsp;&nbsp;NHPTL<br>
+
+
+                      </tr></table></td></tr></span>
+                    
+                  
+                
+              
+              <tr> 
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;출력(OUTPUT.TXT)</td>
+              </tr>
+              <tr> 
+                <td> 
+                  <table width="150" border="1" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="word">
+&nbsp;&nbsp;&nbsp;NHKPTJLZR<br>
+
+						
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+ 
+
+  <tr> 
+    <td width="20">&nbsp;</td>
+    <td> 
+      <h3 align="right">3</h3>
+    </td>
+  </tr>
+      <tr>
+    <td width="20">&nbsp;</td>
+    <td class="text3">
+      <p align="right"><a href="in04_2.htm"><img border="0" src="../../images/left_button.gif"></a>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
